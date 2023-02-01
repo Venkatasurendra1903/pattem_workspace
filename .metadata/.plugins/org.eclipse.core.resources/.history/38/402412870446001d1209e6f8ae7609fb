@@ -1,0 +1,22 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Loops {
+
+	public static void main(String[] args) {
+		final int a;
+		final int b;
+		final int i,j;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the starting number:");
+		a=sc.nextInt();
+		System.out.println("enter the ending number:");
+		b=sc.nextInt();
+		for(i=a;i<=b;i++) 
+		{
+			
+			System.out.print(i+",");
+		}
+	}
+}

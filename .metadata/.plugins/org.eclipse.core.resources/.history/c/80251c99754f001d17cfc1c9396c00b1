@@ -1,0 +1,56 @@
+package oops;
+abstract class ClassRoom
+{
+	public abstract void boys();
+	public abstract void girls();
+	public abstract void teacher();
+}
+class boys extends ClassRoom
+{
+//	public void boys()
+//	{
+//		System.out.println("boys are shouting in the classroom");
+//	}
+	@Override
+	public void girls() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void teacher() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+class girls extends boys
+
+{
+	public void boys()
+	{
+		System.out.println("boys are shouting in the classroom");
+	}
+	public girls()
+	{
+		System.out.println("girls are eating in the classroom");
+	}
+}
+class teacher extends girls
+{
+	public teacher()
+	{
+		System.out.println("teacher teaches a lesson");
+	}
+}
+public class AbstractClass 
+{
+
+	public static void main(String[] args) 
+	{
+		teacher t=new teacher();
+		t.teacher();
+		t.boys();
+		t.girls();
+	}
+
+}

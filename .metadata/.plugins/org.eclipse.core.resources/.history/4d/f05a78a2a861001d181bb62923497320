@@ -1,0 +1,45 @@
+package selenium.webdriver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+public class CrmPro 
+{
+	public static void main(String[] args) throws InterruptedException 
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Venkata.Pattem\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver(); 
+		driver.get("https://classic.crmpro.com/index.html");
+		driver.findElement(By.linkText("Sign Up")).click();
+		Thread.sleep(5000);
+//		Select select = new Select(driver.findElement(By.name("//select[@name='payment_plan_id']")));
+//		select.selectByVisibleText("Free Edition");
+		
+		driver.findElement(By.name("first_name")).sendKeys("suri");
+		Thread.sleep(5000);
+		driver.findElement(By.name("surname")).sendKeys("p");
+		Thread.sleep(5000);
+		driver.findElement(By.name("email")).sendKeys("pattemsurendra123@gmail.com");
+		Thread.sleep(5000);
+		driver.findElement(By.name("email_confirm")).sendKeys("pattemsurendra123@gmail.com");
+		Thread.sleep(5000);
+		driver.findElement(By.name("username")).sendKeys("suri123");
+		Thread.sleep(5000);
+		driver.findElement(By.name("password")).sendKeys("Suri@123");
+		Thread.sleep(5000);
+		driver.findElement(By.name("passwordconfirm")).sendKeys("Suri@123");
+		Thread.sleep(5000);
+		driver.findElement(By.name("agreeTerms")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.name("submitButton")).click();
+//		Actions action = new Actions(driver);
+//		action.moveToElement(driver.findElement(By.name("payment_plan_id"))).build().perform();
+//		Thread.sleep(5000);
+//		driver.findElement(By.xpath("//option[text()='Free Edition']")).click();
+//		driver.quit();
+	}
+
+}

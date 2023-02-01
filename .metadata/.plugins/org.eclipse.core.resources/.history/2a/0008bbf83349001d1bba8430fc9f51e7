@@ -1,0 +1,16 @@
+package modifiersProgram;
+
+import java.util.Scanner;
+
+public class PrimeRange {
+
+	public static void main(String[] args) {
+		int i,m=0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("entrr the starting number:");
+		int a = sc.nextInt();
+		System.out.println("entrr the ending number:");
+		int b = sc.nextInt();
+	}
+
+}

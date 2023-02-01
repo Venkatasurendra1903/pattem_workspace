@@ -1,0 +1,10 @@
+package collections;
+
+public class ArrayListExample
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<String> List = new ArrayList<String>();
+	}
+
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.529">
+    <testcase classname="Amazon Home Page" name="Home Page Top Panel Section" time="0.099">
+        <system-out><![CDATA[Given user is on Amazon home page...........................................passed
+Then user gets a Amazon search field........................................passed
+And username is also displayed next to search field.........................passed
+And Amazon logo is also displayed...........................................passed
+And Cart link is also displayed.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Home Page" name="Amazon Todays Deals section" time="0.006">
+        <system-out><![CDATA[Given user is on Amazon home page...........................................passed
+When user scrolls down to Todays Deals section..............................passed
+Then user gets the list of multiple products................................passed
+And user gets product image and price details...............................passed
+And user can see more products by clicking on carousel......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Home Page" name="Amazon Footer Links section" time="0.014">
+        <system-out><![CDATA[Given user is on Amazon home page...........................................passed
+When user scrolls down to footer of the page................................passed
+Then user gets all Country links............................................passed
+And user gets all amazon services links.....................................passed
+And User gets all privacy policy links......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

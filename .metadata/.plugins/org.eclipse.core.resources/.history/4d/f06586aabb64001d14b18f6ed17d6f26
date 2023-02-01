@@ -1,0 +1,48 @@
+package selenium.webdriver;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class DragAndDrop 
+{
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) 
+	{	
+		System.setProperty("webdriver.chrome.sdriver", "C:\\Users\\Venkata.Pattem\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://demoqa.com/droppable");
+//		driver.findElement(By.xpath("//a[text()='Droppable']")).click();
+		driver.switchTo().frame(0);
+		Actions action = new Actions(driver);
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		
+		//Method 1 for drag & drop 
+		WebElement a = driver.findElement(By.id("draggable"));
+		WebElement b = driver.findElement(By.id("droppable"));
+		action.dragAndDrop(b, a).build().perform();
+		
+		// Method 2 for drag & drop 
+		
+//		action.clickAndHold(driver.findElement(By.xpath("//p[text()='Drag me to my target']")))
+//	    .moveToElement(driver.findElement(By.xpath("//p[text()='Drop here']")))
+//		.release()
+//		.build()
+//		.perform();
+//		
+	
+		
+		
+		
+		
+		
+		
+		
+//		driver.quit();
+	}
+
+}

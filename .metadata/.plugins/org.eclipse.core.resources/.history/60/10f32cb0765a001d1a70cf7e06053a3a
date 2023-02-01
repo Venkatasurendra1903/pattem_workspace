@@ -1,0 +1,20 @@
+package collections;
+
+import java.util.ArrayList;
+
+public class ArrayListExample
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<String> List = new ArrayList<String>();
+		List.add("one");
+		List.add("two");
+		List.add("three");
+		List.add("four");
+		for(String i:List)
+		{
+			System.out.print(i+"");
+		}
+	}
+
+}

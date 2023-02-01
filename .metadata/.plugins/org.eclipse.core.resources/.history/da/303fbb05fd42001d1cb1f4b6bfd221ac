@@ -1,0 +1,23 @@
+
+package basic;
+
+import java.util.Scanner;
+
+public class HelloWorld {
+
+	public static void main(String[] args) 
+	{
+		System.out.println("enter a integer");
+		int a;String b;float c;
+		Scanner sc=new Scanner(System.in);
+		a=sc.nextInt();
+		System.out.println("enter a character");
+		b=sc.next();
+		System.out.println("enter a float");
+		c=sc.nextFloat();
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+	}
+
+}

@@ -1,0 +1,61 @@
+package collections;
+
+import java.util.ArrayList;
+
+public class ArrayListExample
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<String> List = new ArrayList<String>();        //creating new arraylist named as List
+		List.add("one");
+		List.add("two");                                         //add elements in list using 'add' method 
+		List.add("three");
+		List.add("four");
+		System.out.println(List);
+		for(int i=0;i<List.size();i++)
+		{
+			System.out.print(List.get(i)+" ");
+		}
+		System.out.println();
+		System.out.println(List.toString());
+		for(String i:List)
+		{
+			System.out.print(i+" ");
+		}
+		List.add(2, "five");
+		List.add(3,"six");
+		System.out.println();
+		System.out.println(List);
+		System.out.println(List.size());
+		System.out.println(List);
+		System.out.println(List.contains("seven"));
+		System.out.println(List.contains("one"));
+		List.set(2, "seven");
+		System.out.println(List);
+//		System.out.println(List.set(2, "seven"));
+		List.remove(3);
+		System.out.println(List);
+		System.out.println(List.remove("seven"));
+		System.out.println(List.remove("nine"));
+		List.remove("seven");
+		System.out.println(List);
+		System.out.println(List.contains("two"));
+		List.removeAll(List);
+		System.out.println(List);
+//		System.out.println(List.removeAll(List));
+		ArrayList<String> List1 = new ArrayList<String>();
+		List1.add("a");
+		List1.add("b");
+		List1.add("c");
+		List1.add("d");
+		for(String j:List1)
+		{
+			System.out.print(j+" ");
+		}
+		System.out.println();
+		System.out.println(List1);
+		List.addAll(List1);
+		System.out.println(List);
+	}
+
+}

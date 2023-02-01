@@ -1,0 +1,26 @@
+package collections;
+
+import java.util.ArrayList;
+
+public class ArrayListExample
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<String> List = new ArrayList<String>();
+		List.add("one");
+		List.add("two");
+		List.add("three");
+		List.add("four");
+		System.out.println(List);
+//		System.out.println(List.toString());
+		for(int i=0;i<List.size();i++)
+		{
+			System.out.print(List.get(i));
+		}
+//		for(String i:List)
+//		{
+//			System.out.print(i+" ");
+//		}
+	}
+
+}

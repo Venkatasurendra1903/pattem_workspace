@@ -1,0 +1,31 @@
+package modifiersProgram;
+
+import java.util.Scanner;
+
+public class PrimeRange {
+
+	public static void main(String[] args) {
+		int i,j;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("entrr the starting number:");
+		int a = sc.nextInt();
+		System.out.println("entrr the ending number:");
+		int b = sc.nextInt();
+		System.out.println("the prime numbers in the range are:");
+		for(i=a;i<=b;i++)
+		{
+			int i1 = 0;
+			if(i1>1)
+			{
+				for(j=a;j<=i;j++)
+				{
+					if(i1%i == 0)
+					{
+						System.out.println(i);
+					}
+				}
+			}
+		}
+	}
+
+}

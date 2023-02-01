@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class integer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Scanner s = new Scanner(System.in);
+		System.out.println("Enter a number");
+		int number = s.nextInt();
+		System.out.println("you enter"+number);
+    */ 
+		/*System.out.println("enter the numbers");
+		int a=2, b=4;
+		System.out.println(a+""+b);
+		int sum = a+b;
+		System.out.println("the sum is :"+sum);
+		*/
+		/*float a = 4.0f, b = 5.0f;
+		float temp = a;
+		a = b;
+		b=temp;
+		System.out.println("first number"+a);
+		System.out.println("second number"+b);
+		*/
+		System.out.println("<>");
+		System.out.println("<>");
+		System.out.print("<>");
+		System.out.println("<>");
+		
+		
+		
+		
+		
+	}
+
+}

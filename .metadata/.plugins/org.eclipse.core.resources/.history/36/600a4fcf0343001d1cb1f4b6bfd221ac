@@ -1,0 +1,22 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Strings {
+
+	public static void main(String[] args) 
+	{
+				String str;
+				System.out.println("enter a string");
+				Scanner sc = new Scanner(System.in);
+				str=sc.next();
+				System.out.println(str);
+
+			}
+
+		}
+
+
+	}
+
+}
