@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Venkata.Pattem\eclipse-workspace\Automation\src\MMT\TempMail.java"/>
 			<item value="C:\Users\Venkata.Pattem\eclipse-workspace\Cucumber_Features"/>
 			<item value="C:\Users\Venkata.Pattem\eclipse-workspace\Automation\src\selenium\webdriver\Google.java"/>
 		</list>
@@ -30,10 +31,12 @@
 			<item value="Cucumber_POM.Cucumber_POUM"/>
 		</list>
 		<list key="groupId">
+			<item value="Automation_Scenario"/>
 			<item value="CUCUMBER_FEATURES_NEW"/>
 			<item value="Cucumber_POM"/>
 		</list>
 		<list key="artifactId">
+			<item value="Automation_Scenario"/>
 			<item value="CUCUMBER_FEATURES_NEW"/>
 			<item value="Cucumber_POUM"/>
 		</list>

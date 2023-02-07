@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/Practice/src/basic/HelloWorld.java"/>
+        <listEntry value="/Java_Project/src/basic/HelloWorld.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -13,5 +13,5 @@
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="basic.HelloWorld"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="Practice"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="1 4 5 6 8"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Practice"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java_Project"/>
 </launchConfiguration>

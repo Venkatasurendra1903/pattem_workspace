@@ -70,6 +70,6 @@ public class Annotations_CRMPro {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.findElement(By.xpath("/html/body/div[6]/table/tbody/tr[4]/td[8]")).click();
 		Thread.sleep(3000);
-//		driver.quit();
+		driver.quit();
 	}
 }
